@@ -1,0 +1,448 @@
+/* 
+
+   Read in the name of ALLAH 
+
+   =======================
+   Explore SuperStar World
+
+   Shihan Chowdhury
+   ======================= 
+   
+*/
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,canvas,iframe,img,svg,video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.fix {
+	overflow:hidden;
+}
+.floatleft {
+	float:left;
+}
+.floatright {
+	float: right;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/* =============
+   Custom Styles
+   ============= */
+body {    
+	font-family: 'Roboto Mono', monospace;
+    background: url(img/bg.png) no-repeat;
+	background-size: cover;
+}
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+.header-right ul li:last-child {
+	padding-right: 0px;
+}	
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Header Start
+	-_-_-_-_-_-_-_-_-_-_
+*/
+.header_area {
+	margin-top: 72px;
+}
+.header-left img{
+
+}
+.header-left {
+}
+.header-right {
+}
+.header-right ul{
+	margin-top: 24px;	
+}
+.header-right ul li{
+	display: inline-block;
+    padding: 0px 15px;	
+}
+.header-right ul li a{
+	color: #572204;
+	font-size: 29px;
+	font-weight: 900;
+	font-family: 'Abril Fatface', cursive;	
+    text-shadow: 0 0 2px #fff;	
+}
+.header-right ul li a:hover{
+	text-decoration: none;
+    text-shadow: 0 2px 2px #ddd;		
+}
+/*
+	____________________
+	Header End
+	--------------------
+*/
+
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Banner Start
+	-_-_-_-_-_-_-_-_-_-_
+*/
+.banner_area {
+	position: relative;
+}
+.banner {
+	background: #5B2204;
+	color: #fff;
+    border-top-left-radius: 11px;	
+    border-top-right-radius: 11px;	
+    position: relative;
+    height: 294px;	
+}
+.banner-left {
+	width: 370px;
+	padding: 6px 48px 33px;
+}
+.banner-left h2{
+	font-size: 24px;
+	font-weight: 400;
+}
+.banner-left p{
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Cutive Mono', monospace;	
+}
+.banner-left button {
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 14px 22px;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 10px;
+    color: rgba(221, 221, 221, 0.48);
+    text-shadow: 1px 0px 0px #ddd;	
+	margin-top: 20px;
+	transition: 0.3s;
+	box-shadow: 0px 0px 1px #ddd;
+}
+.banner-left button:hover {
+	box-shadow: 0px 3px 6px 1px #ddd;
+}
+.banner-right {
+    width: 590px;
+}
+.banner-right .banner-img{
+    position: absolute;
+    top: -25px;	
+	height: 234px;	
+}
+.banner-right .banner-ul {
+    display: inline-block;
+    position: absolute;
+    right: -9px;
+    overflow: visible;
+    top: 18px;
+    left: auto;	
+}
+.banner-right .banner-ul li{
+    padding: 13px 0px;		
+}
+.banner-right .banner-ul li a{}
+.banner-right .banner-ul li a img{
+    width: 51px;	
+}
+
+/*
+	____________________
+	Banner End
+	--------------------
+*/
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Service Start
+	-_-_-_-_-_-_-_-_-_-_
+*/ 
+.service_area {
+	height: 213px;
+}
+.service {
+	background: #DCDFDD;
+	color: #2d2d2d;
+}
+.service-left {
+	width: 50%;
+	background: url(img/separator.png) no-repeat right;
+}
+.service-icon {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    padding: 1px 13px;
+    margin-top: 99px;
+}
+.service-icon img{
+    max-width: 70%;
+    height: auto;
+    margin-left: 24px;	
+}
+.service-content {
+    width: 75%;
+    padding: 14px;
+}
+.service-content h2{
+    font-size: 23px;
+    font-weight: 900;
+}
+.service-content p{
+    font-size: 14px;
+    font-weight: 300;
+	font-family: 'Cutive Mono', monospace;
+    padding-right: 25px;	
+}
+.service-content a{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 14px;
+    color: #000;
+	padding-bottom: 10px;
+}
+
+.service-right {
+	width: 50%;
+}
+/*
+	____________________
+	Service End
+	--------------------
+*/
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Main Content Start
+	-_-_-_-_-_-_-_-_-_-_
+*/ 
+.main-content_area {
+	background: #E5E2E2;
+	padding: 15px 24px;
+	-height: 512px;
+}
+.main-content_area h1{
+    font-size: 24px;
+    color: #545252;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    padding: 15px 0px;
+}
+.main-content_area p{
+	line-height: 18px;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 39px;	
+}
+.main-content-list {
+	position: relative;
+    -padding-left: 5px;	
+} 
+.single-service {
+    /* display: inline-block; */
+    padding: 2px;
+    height: 168px;
+}
+.single-service img{
+	max-width: 100%;
+    height: auto;	
+}
+.owl-carousel div.owl-nav div{
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 37px;
+    font-size: 39px;
+}
+.owl-carousel .owl-nav div.owl-prev {
+    right: auto;
+    left: -32px;	
+}
+.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -27px;	
+}
+.main-content_area .getit {
+    text-align: center;
+    margin-top: 44px;	
+}
+.main-content_area .getit .go-get-it {
+    color: rgba(242, 222, 222, 0.62);
+    background: #4c240e;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 16px;
+    box-shadow: 0px 2px 1px 2px rgba(83, 84, 82, 0.89);
+}
+.main-content_area .getit .go-get-it:hover {
+	text-decoration: none;
+    color: #ddd;
+    box-shadow: 0px 2px 1px 3px rgba(83, 84, 82, 0.35);	
+}
+
+ 
+/*
+	____________________
+	Main Content End
+	--------------------
+*/
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	Footer Start
+	-_-_-_-_-_-_-_-_-_-_
+*/  
+
+.footer_area {
+    background: #5B2204;
+    color: #fff;
+    padding: 15px 5px;
+}    
+.footer_area p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;	
+}
+/*
+	____________________
+	Footer End
+	--------------------
+*/
+
+
+
+
+
+
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+		box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,h2,h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,h3 {
+        page-break-after: avoid;
+    }
+}
+.slicknav_menu {
+	display: none;
+}

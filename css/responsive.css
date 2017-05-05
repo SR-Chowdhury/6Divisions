@@ -1,0 +1,147 @@
+/*
+	Read in the name of Allah
+*/
+
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main {width: 750px;}
+	.header-left {width: 30%;}
+	.header-right {width: 70%;}
+	.header-right ul {margin-top: 8px;}
+	.header-left img { max-width: 100%;}
+	.header-right ul li a {font-size: 25px}
+	.banner-left {width: 33%;padding: 6px 0px 21px 13px;}
+	.banner-right {width: 67%;}
+	.banner-right .banner-img {position: absolute;top: -20px; max-width: 90%;height: auto;}
+	.banner .banner-ul{right: 9px; top: 4px;}
+	.banner .banner-ul li img{width: 42px !important;height: 37px;}
+	.banner-left p {font-size: 13px;}
+	.banner-left button {padding: 10px 15px;font-size: 14px;margin-top: 9px;}
+	.banner-left h2{font-size: 22px;}
+	.main-content_area {margin-top: 47px;padding: 1px 11px;}
+	.service-content p {font-size: 14px;padding-right: 24px;}
+	.service-content h2 {font-size: 20px;}
+	.main-content_area h1 {font-size: 20px;padding: 6px 0px;}
+	.main-content-list {width: 95%;margin: 0 auto;padding-left: 0px;}
+	.main-content_area .getit .go-get-it {padding: 7px 21px;font-size: 17px;border-radius: 13px;}
+	.main-content_area .getit {margin-top: 30px;margin-bottom: 16px;}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.main {width: 300px;}
+	.header_area {margin-top: 9px;}
+	.header-right {display:none;}
+	.slicknav_menu {display: block;-background: url(img/bg.png) no-repeat;-background-size: cover;background: #5B2204;}
+	.slicknav_btn {background-color: #5B2204;}
+	.header-left img {max-width: 100%}
+	.header-left {width: 35%}
+	.banner {height: 228px;}
+	.banner-left {width: 42%;padding: 0px 0px 1px 5px;}
+	.banner-left h2 {font-size: 14px;}
+	.banner-left p {font-size: 10px;}
+	.banner-left button {padding: 5px 15px;font-weight: 300;font-size: 8px;margin-top: 0px;}
+	.banner-right {width: 58%;}
+	.banner-right .banner-img {height: 135px;width: 145px;top: -12px;}
+	.banner-right .banner-ul li a img {width: 28px;}
+	.banner-right .banner-ul {right: -7px;}
+	.service_area {height: 206px;}
+	.service-content {padding: 0px}
+	.service-icon img {margin-left: -3px;max-width: 145%;}
+	.service-content h2 {font-size: 13px;font-weight: 300;}
+	.service-content p {font-size: 9px;padding-right: 0px;}
+	.main-content-list {height: 131px;}
+	.service-content a {font-size: 12px;padding-right: 0px;padding-bottom: 17px;}
+	.main-content_area h1 {font-size: 14px;font-weight: 800;padding: 0px 0px;}
+	.main-content_area p {font-size: 9px;font-weight: 300;padding-bottom: 7px;line-height: 13px;}
+	.main-content_area .getit {margin-top: 21px;}
+	.main-content_area .getit .go-get-it {padding: 8px 20px;font-size: 16px;border-radius: 13px;}
+	
+	.footer_area {text-align: center;}
+	.footer_area p {font-size: 10px;font-weight: 300;float: none;}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.main {width: 450px;}
+	.header_area {margin-top: 9px;}
+	.header-right {display:none;}
+	.slicknav_menu {display: block;-background: url(img/bg.png) no-repeat;-background-size: cover;background: #5B2204;}
+	.slicknav_btn {background-color: #5B2204;}
+	.header-left img {max-width: 100%}
+	.header-left {width: 50%}
+	.banner {height: 249px;}
+	.banner-left {width: 30%;padding: 0px 4px 1px;}
+	.banner-left h2 {font-size: 16px;}
+	.banner-left p {font-size: 11px;}
+	.banner-left button {padding: 7px 10px;font-weight: 300;font-size: 11px;border-radius: 4px;margin-top: 1px;margin-left: 23px;}
+	.banner-right {width: 70%;}
+	.banner-right .banner-img {height: 210px;width: 294px;}
+	.banner-right .banner-ul li a img {width: 33px;}
+	.banner-right .banner-ul {right: -7px;}
+	
+	.service-content {padding: 0px}
+	.service-icon img {margin-left: 5px;}
+	.service-content h2 {font-size: 16px;font-weight: 400;}
+	.service-content p {font-size: 11px;padding-right: 0px;}
+	.main-content-list {height: 158px;}
+	.service-content a {font-size: 12px;padding-right: 0px;padding-bottom: 17px;}
+	.main-content_area h1 {font-size: 16px;font-weight: 400;padding: 0px 0px;}
+	.main-content_area p {font-size: 11px;font-weight: 300;padding-bottom: 15px;line-height: 16px;}
+	.main-content_area .getit {margin-top: 21px;}
+	.main-content_area .getit .go-get-it {padding: 8px 20px;font-size: 16px;border-radius: 13px;}
+	
+	.footer_area p {font-size: 10px;font-weight: 300;}
+	
+}
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+}
